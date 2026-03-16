@@ -1,1 +1,93 @@
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:linear-gradient(135deg,#5f2c82,#49a09d);
+    color:white;
+}
 
+/* TITLE */
+
+h1{
+    text-align:center;
+    padding:20px;
+}
+
+/* MAIN DASHBOARD */
+
+.dashboard{
+    width:1300px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+/* CARD STYLE */
+
+.card{
+    width:400px;
+    background:white;
+    color:black;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* INPUTS */
+
+input{
+    width:95%;
+    padding:8px;
+    margin-bottom:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+/* BUTTON */
+
+button{
+    width:100%;
+    padding:12px;
+    background:linear-gradient(45deg,#ff512f,#dd2476);
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* BEST RESULT */
+
+.best-result{
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+    background:linear-gradient(135deg,#36d1dc,#5b86e5);
+    color:white;
+}
+
+/* TABLE */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#5b86e5;
+    color:white;
+    padding:8px;
+}
+
+td{
+    padding:8px;
+    border-bottom:1px solid #ddd;
+}
+
+/* PLACEHOLDER */
+
+.placeholder{
+    text-align:center;
+    margin-top:40px;
+    color:gray;
+}
