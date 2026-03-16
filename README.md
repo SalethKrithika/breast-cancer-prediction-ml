@@ -97,8 +97,3 @@ http://127.0.0.1:8000
 - Real-time prediction results  
 
 ---
-
-## Author
-
-Krithika  
-AI & Data Science Student
